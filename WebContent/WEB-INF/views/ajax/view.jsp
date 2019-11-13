@@ -34,6 +34,12 @@
 			<th>작성시간</th>
 			<td data-col="cretim"></td>
 		</tr>
+		<tr>
+		<th colspan="2">
+		<button onclick="goPage('/ajax/update?biNum=${param.biNum}')"> 수정 </button>
+		<button onclick="goPage('/ajax/list')"> 리스트가기 </button>
+		</th>
+		</tr>
 	</table>
 </div>
 <script>

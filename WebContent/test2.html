@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+var ani1 = {
+		name : '강아지'
+}
+var animals = [ani1, {
+	name : '고양이'
+}];
+
+alert(animals[0]['name']);
+
+var animals = [ani1,ani1];
+
+animals[0].name = '고양이';
+
+</script>
+</body>
+</html>

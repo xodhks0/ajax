@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<script src="${jsPath}/jquery-3.4.1.js"></script>
-<script src="${jsPath}/bootstrap.js"></script>
-<script src="${jsPath}/bootstrap.bundle.js"></script>
-<script src="${jsPath}/common.js"></script>
-<link rel="stylesheet" href="${cssPath}/bootstrap.css"/>
-<link rel="stylesheet" href="${cssPath}/bootstrap-reboot.css"/>
-<link rel="stylesheet" href="${cssPath}/bootstrap-grid.css"/>
+<c:set var= "var" value="1.0.1"/>
+<script src="${jsPath}/jquery-3.4.1.js?ver=${var}"></script>
+<script src="${jsPath}/bootstrap.js?ver=${var}"></script>
+<script src="${jsPath}/bootstrap.bundle.js?ver=${var}"></script>
+<script src="${jsPath}/common.js?ver=${var}"></script>
+<link rel="stylesheet" href="${cssPath}/bootstrap.css?ver=${var}"/>
+<link rel="stylesheet" href="${cssPath}/bootstrap-reboot.css?ver=${var}"/>
+<link rel="stylesheet" href="${cssPath}/bootstrap-grid.css?ver=${var}"/>
